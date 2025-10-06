@@ -22,6 +22,18 @@ export default function Header() {
                     </button>
                 </div>
             </div>
+
+            {/* botoes */}
+            <nav className="navbar">
+                <ul>
+                    <li>
+                        <Link to="/signin" className="entrarBtn">Entrar</Link>
+                    </li>
+                    <li>
+                        <Link to="/" className="anunciarBtn">Anunciar grátis</Link>
+                    </li>
+                </ul>
+            </nav>
         </header>
     )
 }
